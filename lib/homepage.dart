@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pesanmakanan/Navigasi/nav.dart';
-import 'package:pesanmakanan/Sidebar/sidebar.dart';
+import 'Navigasi/nav.dart';
+import 'Sidebar/sidebar.dart';
 import 'Widgets/PopularWidgets.dart';
 import 'Widgets/AppBarWidget.dart';
 import 'Widgets/CategoryWidgets.dart';
@@ -40,6 +40,7 @@ class HomePage extends StatelessWidget {
                   horizontal: 10,
                 ),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Icon(
                       CupertinoIcons.search,
@@ -101,7 +102,7 @@ class HomePage extends StatelessWidget {
           const NewestWidget(),
         ],
       ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       floatingActionButton: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),

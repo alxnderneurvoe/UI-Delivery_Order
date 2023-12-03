@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pesanmakanan/Navigasi/nav.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -10,8 +11,8 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
-        children: const [
-          UserAccountsDrawerHeader(
+        children: [
+          const UserAccountsDrawerHeader(
             decoration: BoxDecoration(
               color: Colors.red,
             ),
@@ -36,72 +37,85 @@ class MyDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               CupertinoIcons.home,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Home",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              navigateToHomePage(context);
+            },
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               CupertinoIcons.person,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Profil",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              navigateToProfilPage(context);
+            },
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               CupertinoIcons.cart_fill,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Cart",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              navigateToCartPage(context);
+            },
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.favorite_rounded,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Fav List",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              // navigateToFavPage(context);
+            },
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               CupertinoIcons.settings,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Setting",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {},
           ),
-          SizedBox(height: 50),
-          ListTile(
+          const SizedBox(height: 50),
+          const ListTile(
             leading: Icon(
               Icons.logout,
               color: Colors.red,

@@ -1,8 +1,11 @@
+// ignore_for_file: file_names
+
 import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:pesanmakanan/Sidebar/ItemBottomNavBar.dart';
+import 'package:pesanmakanan/Sidebar/SideBar.dart';
 import 'package:pesanmakanan/Widgets/AppBarWidget.dart';
 
 class ItemPage extends StatelessWidget {
@@ -46,7 +49,8 @@ class ItemPage extends StatelessWidget {
                               direction: Axis.horizontal,
                               itemCount: 5,
                               itemSize: 18,
-                              itemPadding: const EdgeInsets.symmetric(horizontal: 4),
+                              itemPadding:
+                                  const EdgeInsets.symmetric(horizontal: 4),
                               itemBuilder: (context, _) => Icon(
                                 Icons.star,
                                 color: Colors.orange.shade900,
@@ -167,6 +171,7 @@ class ItemPage extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: const ItemBottomNavBar(),
+      drawer: const MyDrawer(),
     );
   }
 }
