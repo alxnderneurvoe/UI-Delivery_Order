@@ -26,7 +26,7 @@ class CategoriWidget extends StatelessWidget {
                 },
                 child: Container(
                   width: 120,
-                  height: 135,
+                  height: 140,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -74,7 +74,7 @@ class CategoriWidget extends StatelessWidget {
                 },
                 child: Container(
                   width: 120,
-                  height: 135,
+                  height: 140,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -122,7 +122,7 @@ class CategoriWidget extends StatelessWidget {
                 onTap: () {},
                 child: Container(
                   width: 120,
-                  height: 135,
+                  height: 140,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -170,7 +170,7 @@ class CategoriWidget extends StatelessWidget {
                 onTap: () {},
                 child: Container(
                   width: 120,
-                  height: 135,
+                  height: 140,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),

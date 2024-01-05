@@ -49,7 +49,7 @@ class _NewestWidgetState extends State<NewestWidget> {
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(16),
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
@@ -87,7 +87,7 @@ class _NewestWidgetState extends State<NewestWidget> {
                                 fontSize: 12,
                               ),
                               textAlign: TextAlign.justify,
-                              maxLines: 3,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                             const SizedBox(height: 10),
@@ -139,9 +139,8 @@ class _NewestWidgetState extends State<NewestWidget> {
                           isFavSusu
                               ? Icons.favorite
                               : Icons.favorite_border_outlined,
-                          color: isFavSusu
-                              ? Colors.orange.shade900
-                              : Colors.grey,
+                          color:
+                              isFavSusu ? Colors.orange.shade900 : Colors.grey,
                         ),
                       ),
                     ],
@@ -209,7 +208,7 @@ class _NewestWidgetState extends State<NewestWidget> {
                                 fontSize: 12,
                               ),
                               textAlign: TextAlign.justify,
-                              maxLines: 3,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                             const SizedBox(height: 10),
@@ -260,9 +259,8 @@ class _NewestWidgetState extends State<NewestWidget> {
                           isFavAceh
                               ? Icons.favorite
                               : Icons.favorite_border_outlined,
-                          color: isFavAceh
-                              ? Colors.orange.shade900
-                              : Colors.grey,
+                          color:
+                              isFavAceh ? Colors.orange.shade900 : Colors.grey,
                         ),
                       ),
                     ],
@@ -330,7 +328,7 @@ class _NewestWidgetState extends State<NewestWidget> {
                                 fontSize: 12,
                               ),
                               textAlign: TextAlign.justify,
-                              maxLines: 3,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                             const SizedBox(height: 10),
@@ -382,9 +380,8 @@ class _NewestWidgetState extends State<NewestWidget> {
                           isFavKweti
                               ? Icons.favorite
                               : Icons.favorite_border_outlined,
-                          color: isFavKweti
-                              ? Colors.orange.shade900
-                              : Colors.grey,
+                          color:
+                              isFavKweti ? Colors.orange.shade900 : Colors.grey,
                         ),
                       ),
                     ],
@@ -452,7 +449,7 @@ class _NewestWidgetState extends State<NewestWidget> {
                                 fontSize: 12,
                               ),
                               textAlign: TextAlign.justify,
-                              maxLines: 3,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                             const SizedBox(height: 10),

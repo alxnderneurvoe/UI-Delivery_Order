@@ -31,7 +31,7 @@ class _PopularWidgetState extends State<PopularWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
                 width: 170,
-                height: 250,
+                height: 260,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -120,7 +120,7 @@ class _PopularWidgetState extends State<PopularWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
                 width: 170,
-                height: 250,
+                height: 260,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -207,7 +207,7 @@ class _PopularWidgetState extends State<PopularWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
                 width: 170,
-                height: 250,
+                height: 260,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -294,7 +294,7 @@ class _PopularWidgetState extends State<PopularWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
                 width: 170,
-                height: 250,
+                height: 260,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
